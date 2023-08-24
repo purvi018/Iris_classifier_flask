@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title> Iris classifier </title>
+        <link rel="stylesheet" type="text/css" href="static/styles.css">
+    </head>
+    <body>
+        <h1>Classify Iris based on the Sepal/Petal Length, width in cm</h1>
+        <form action = "/classifier" >
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="sepalLength">Sepal Length in cm:</label>
+                    <input type="text" name="sepalLength" value= 5.8 class="input-box" required>
+                
+
+                    <label for="sepalWidth">Sepal Width in cm:</label>
+                    <input type="text" name="sepalWidth" value= 2.8 class="input-box" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="petalLength">Petal Length in cm:</label>
+                    <input type="text" name="petalLength" value= 5.2 class="input-box" required>
+
+                    <label for="petalWidth">Petal Width in cm:</label>
+                    <input type="text" name="petalWidth"  value= 2.4 class="input-box" required>
+                </div>
+            </div>
+            <input type="submit" value ="Predict" class="'input" >
+       </form>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+/* Define a container for each row of form elements */
+.form-row {
+    display: flex; /* Use flexbox to arrange items in a row */
+    justify-content: space-between; /* Distribute space between elements */
+    margin-bottom: 20px; /* Add some space between rows */
+}
+
+/* Define a style for each form group (containing label and input) */
+.form-group {
+    flex: 1; /* Each form group takes equal space within a row */
+    margin-right: 10px; /* Add space between form groups */
+}
+
+/* Define the style for the input boxes */
+.input-box {
+    width: 100%; /* Make the input box take the full width of its container */
+    padding: 50px; /* Add padding for spacing inside the input box */
+    font-size: 16px; /* Increase font size */
+    border: 2px solid black;
+    border-radius: 5px; /* Add rounded corners */
+}
+
+/* Define the style for the submit button */
+input[type="submit"] {
+    background-color: #007bff; /* Change the background color */
+    color: white; /* Change the text color */
+    padding: 10px 20px; /* Add padding to the button */
+    border: black; /* Remove the border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* Style for button on hover */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
